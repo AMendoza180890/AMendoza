@@ -3,7 +3,7 @@
     <section id="hero" class="hero section dark-background">
 
       <!-- <img src="../assets/img/hero-bg.jpg" alt="" data-aos="fade-in"> -->
-      <img src="../assets/img/portfolio/head-bg.png" alt="" data-aos="fade-in">
+      <img src="assets/img/portfolio/head-bg.png" alt="" data-aos="fade-in">
 
       <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <h2>Allan Mendoza</h2>

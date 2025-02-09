@@ -9,23 +9,17 @@
 <body class="index-page">
 
   <!-- Aqui el header, Este espacio es para poder cargar las paginas -->
-
   <?php
   include_once "pages/Component/header.php";
   
   require_once "pages/component/pages.php";
+  //$pages = array("main", "portfolio","portfolioDetail","resume");
   if (isset($_GET["r"])) {
     $ruta = $_GET["r"];
-    $flag = 0;
     foreach ($pages as $key => $value) {
       if ($ruta == $value){
         include_once "pages/".$ruta.".php";
-        $flag = 1;
-        var_dump($ruta." ". $value);
       }
-    }
-    if($flag == 0){
-      var_dump($ruta);
     }
   }
   ?>
